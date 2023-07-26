@@ -84,6 +84,7 @@ extern "C" {
 #define EXPLAIN_PSEUDO_COLUMNS_FORMAT "pseudo_columns=%d"
 #define EXPLAIN_WIDTH_FORMAT "width=%d"
 #define EXPLAIN_TABLE_SCAN_FORMAT "order=[asc|%d desc|%d]"
+#define EXPLAIN_TABLE_SCAN_GROUP_ORDER "group_order_scan=%d"
 #define EXPLAIN_GROUPS_FORMAT "groups=%d"
 #define EXPLAIN_WIDTH_FORMAT "width=%d"
 #define EXPLAIN_INTERVAL_VALUE_FORMAT "interval=%" PRId64 "%c"
